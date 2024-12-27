@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Zone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1d;
+            color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://example.com/game-banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+        }
+        .banner h2 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .game-card {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .game-card div {
+            background-color: #444;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 30%;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .game-card div img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #f5f5f5;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gaming Zone</h1>
+    </header>
+    <nav>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="banner">
+        <h2>Welcome to Gaming Zone</h2>
+        <p>Explore the latest and most exciting games here!</p>
+    </div>
+    <div class="content">
+        <h2 id="games">Featured Games</h2>
+        <div class="game-card">
+            <div>
+                <img src="https://example.com/game1.jpg" alt="Game 1">
+                <h3>Game 1</h3>
+                <p>Enjoy thrilling adventures with Game 1!</p>
+            </div>
+            <div>
+                <img src="https://example.com/game2.jpg" alt="Game 2">
+                <h3>Game 2</h3>
+                <p>Join epic battles in Game 2!</p>
+            </div>
+            <div>
+                <img src="https://example.com/game3.jpg" alt="Game 3">
+                <h3>Game 3</h3>
+                <p>Experience fun challenges with Game 3!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Gaming Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
